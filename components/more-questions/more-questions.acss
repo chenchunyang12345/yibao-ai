@@ -1,0 +1,64 @@
+.mq-wrap {
+  width: 690rpx;
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.mq-box {
+  width: 100%;
+  height: 295rpx;
+  background-color: #fff;
+  border-radius: 0 25rpx 25rpx 25rpx;
+  box-shadow: 0px 2px 10px 0px rgba(153,153,153,0.2);
+  display: flex;
+  overflow: hidden;
+}
+
+.mq-left {
+  width: 155rpx;
+  height: 100%;
+  background-color: rgba(76, 149, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mq-left text {
+  width: 72rpx;
+  font-size: 32rpx;
+  line-height: 46rpx;
+  font-weight: bold;
+  margin-bottom: 38rpx;
+}
+
+.mq-left image {
+  width: 102rpx;
+  height: 122rpx;
+}
+
+.mq-right {
+  padding: 25rpx 50rpx 0 20rpx;
+}
+
+.mq-qt {
+  width: 100%;
+  height: 34rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18rpx;
+}
+
+.mq-qt::before {
+  content: '';
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background-color: rgba(76, 149, 255, 0.45);
+  margin-right: 13rpx;
+}
+
+.mq-qt text {
+  color: #4C95FF;
+  font-size: 24rpx;
+}

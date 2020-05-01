@@ -1,0 +1,12 @@
+<view class="rq-wrap">
+  <view class="rq-content">
+    <view class="rq-title">
+      <text>{{title}}</text>
+    </view>
+    <block a:for="{{relationsArr}}">
+      <view class="rq-q" onTap="bindClick" data-text="{{item}}">
+        <text>{{item}}</text>
+      </view>    
+    </block>
+  </view>
+</view>

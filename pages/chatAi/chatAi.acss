@@ -1,0 +1,10 @@
+.ca-wrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F5F6FA;
+}
+
+.ca-content {
+  width: 100vw;
+  height: calc(100vh - 210rpx);
+}

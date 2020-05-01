@@ -1,0 +1,49 @@
+<view class="ca-wrap">
+  <!-- 聊天界面 -->
+  <scroll-view 
+    class="ca-content" 
+    scroll-y="true" 
+    scroll-top="{{scrollTop}}"
+  >
+    <block a:for="{{chatArr}}">
+      <!-- 提问 -->
+      <block a:if="{{item.num === 1}}">
+        <ask-text value="{{item.value}}" />
+      </block>
+      <!-- 机器人头像 -->
+      <block a:if="{{item.num === 2}}">
+        <bot-head />
+      </block>
+      <!-- 机器人回答 -->
+      <block a:if="{{item.num === 3}}">
+        <bot-text value="{{item.value}}" />
+      </block>
+      <!-- 猜你想问 -->
+      <block a:if="{{item.num === 4}}">
+        <more-questions 
+          questionsArr="{{item.questionsArr}}" 
+          onSendMsg="onSendMsg"
+        />
+      </block>
+      <!-- 相关问题 -->
+      <block a:if="{{item.num === 5}}">
+        <relation-questions 
+          relationsArr="{{item.relationsArr}}" 
+          onSendMsg="onSendMsg"
+        />
+      </block>
+      <!-- 时间 -->
+      <block a:if="{{item.num === 6}}">
+        <top-date />
+      </block>
+      <!-- tips -->
+      <block a:if="{{item.num === 7}}">
+        <chat-tips />
+      </block>
+    </block>
+  </scroll-view>
+  <!-- 业务按钮 -->
+  <bottom-btns />
+  <!-- 输入框 -->
+  <input-question onSendMsg="onSendMsg" />
+</view>

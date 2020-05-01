@@ -1,0 +1,15 @@
+.bt-wrap {
+  width: 690rpx;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  line-height: 45rpx;
+  margin-bottom: 30rpx;
+}
+
+.bt-box {
+  max-width: 710rpx;
+  padding: 15rpx 20rpx 11rpx;
+  background-color: #fff;
+  border-radius: 0 25rpx 25rpx 25rpx;
+  box-shadow: 0px 2px 10px 0px rgba(153,153,153,0.2);
+}

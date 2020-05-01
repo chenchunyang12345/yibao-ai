@@ -1,0 +1,4 @@
+<view class="bh-wrap">
+  <image src="/image/bot-head.png"/>
+  <text>小保</text>
+</view>

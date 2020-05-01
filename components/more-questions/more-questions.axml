@@ -1,0 +1,15 @@
+<view class="mq-wrap">
+  <view class="mq-box">
+    <view class="mq-left">
+      <text>猜您\n想问</text>
+      <image src="/image/more-questions.png"/>
+    </view>
+    <view class="mq-right">
+      <block a:for="{{questionsArr}}">
+        <view class="mq-qt" onTap="bindClick" data-text="{{item}}">
+          <text>{{item}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

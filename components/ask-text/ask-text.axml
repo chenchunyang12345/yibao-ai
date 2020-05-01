@@ -1,0 +1,6 @@
+<view class="at-wrap">
+  <view class="at-text">
+    <text>{{value}}</text>
+  </view>
+  <view class="at-img"></view>
+</view>

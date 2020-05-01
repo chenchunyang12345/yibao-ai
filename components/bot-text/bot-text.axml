@@ -1,0 +1,7 @@
+<view class="bt-wrap">
+  <view class="bt-box">
+    <text>
+      {{value}}
+    </text>
+  </view>
+</view>

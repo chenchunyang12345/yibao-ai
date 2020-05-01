@@ -1,0 +1,6 @@
+<view class="iq-wrap">
+  <input placeholder="请输入你的问题" onInput="bindInput" value="{{inputValue}}" />
+  <view onTap="bindSend">
+    发送
+  </view>
+</view>

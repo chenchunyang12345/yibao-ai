@@ -1,0 +1,14 @@
+{
+  "pullRefresh": false,
+  "usingComponents": {
+    "input-question": "/components/input-question/input-question",
+    "bottom-btns": "/components/bottom-btns/bottom-btns",
+    "top-date": "/components/top-date/top-date",
+    "chat-tips": "/components/chat-tips/chat-tips",
+    "bot-head": "/components/bot-head/bot-head",
+    "bot-text": "/components/bot-text/bot-text",
+    "more-questions": "/components/more-questions/more-questions",
+    "ask-text": "/components/ask-text/ask-text",
+    "relation-questions": "/components/relation-questions/relation-questions"
+  }
+}

@@ -1,0 +1,7 @@
+<view class="bb-wrap">
+  <block a:for="{{questionsArr}}">
+    <view class="bb-btn">
+      {{item}}
+    </view>
+  </block>
+</view>

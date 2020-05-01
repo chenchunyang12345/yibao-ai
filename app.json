@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/my/my",
+    "pages/chatAi/chatAi"
+  ],
+  "window": {
+    "defaultTitle": "医保ai"
+  },
+  "tabBar": {
+    "textColor": "#000",
+    "selectedColor": "orange",
+    "backgroundColor": "#ccc",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "name": "聊天"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "name": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+.ct-wrap {
+  width: 690rpx;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  margin-bottom: 12rpx;
+}
+
+.ct-wrap::before {
+  content: '';
+  width: 214rpx;
+  height: 0;
+  border-top: 1px solid rgba(193, 192, 201, 0.9);
+}
+
+.ct-wrap::after {
+  content: '';
+  width: 214rpx;
+  height: 0;
+  border-top: 1px solid rgba(193, 192, 201, 0.9);
+}
